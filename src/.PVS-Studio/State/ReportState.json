@@ -1,0 +1,1285 @@
+{
+  "json": [
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.CodeGeneration.CSharp.Tests' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp.Tests"
+      ],
+      "favorite": false,
+      "id": 0
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.Demo' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Demo"
+      ],
+      "favorite": false,
+      "id": 1
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.Benchmark' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Benchmark"
+      ],
+      "favorite": false,
+      "id": 2
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 3
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.Tests(net472)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests(net472)"
+      ],
+      "favorite": false,
+      "id": 4
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.CodeGeneration(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 5
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.CodeGeneration.CSharp(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 6
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.CodeGeneration.TypeScript(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.TypeScript(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 7
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.NewtonsoftJson(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.NewtonsoftJson(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 8
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.Annotations(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Annotations(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 9
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.Yaml(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Yaml(netstandard2.0)"
+      ],
+      "favorite": false,
+      "id": 10
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.NewtonsoftJson.Tests(net472)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.NewtonsoftJson.Tests(net472)"
+      ],
+      "favorite": false,
+      "id": 11
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.CodeGeneration.TypeScript.Tests(net472)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.TypeScript.Tests(net472)"
+      ],
+      "favorite": false,
+      "id": 12
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.Yaml.Tests(net472)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Yaml.Tests(net472)"
+      ],
+      "favorite": false,
+      "id": 13
+    },
+    {
+      "code": "V051",
+      "message": "Some of the references in 'NJsonSchema.CodeGeneration.Tests(net472)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 0,
+          "endLine": 0,
+          "file": "",
+          "navigation": {
+            "currentLine": 0,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.Tests(net472)"
+      ],
+      "favorite": false,
+      "id": 14
+    },
+    {
+      "code": "V3111",
+      "message": "Checking value of 'key' for null will always return false when generic type is instantiated with a value type.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 217,
+          "endLine": 217,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Collections/ObservableDictionary.cs",
+          "navigation": {
+            "currentLine": 361321,
+            "previousLine": 123,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 15
+    },
+    {
+      "code": "V3111",
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 92,
+          "endLine": 92,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Converters/JsonInheritanceConverter.cs",
+          "navigation": {
+            "currentLine": 1482857,
+            "previousLine": 123,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 16
+    },
+    {
+      "code": "V3163",
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 158,
+          "endLine": 158,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Infrastructure/DynamicApis.cs",
+          "navigation": {
+            "currentLine": 1094,
+            "previousLine": 125,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 1069,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 17
+    },
+    {
+      "code": "V3163",
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 88,
+          "endLine": 88,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/JsonExtensionObject.cs",
+          "navigation": {
+            "currentLine": 1094,
+            "previousLine": 125,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 1069,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 18
+    },
+    {
+      "code": "V3022",
+      "message": "Expression '_items != null' is always true.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 646,
+          "endLine": 646,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/JsonSchema.cs",
+          "navigation": {
+            "currentLine": 3145065,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 571,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 19
+    },
+    {
+      "code": "V3111",
+      "message": "Checking value of 'obj' for null will always return false when generic type is instantiated with a value type.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 253,
+          "endLine": 253,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Visitors/JsonReferenceVisitorBase.cs",
+          "navigation": {
+            "currentLine": 361193,
+            "previousLine": 408929632,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 20
+    },
+    {
+      "code": "V3111",
+      "message": "Checking value of 'obj' for null will always return false when generic type is instantiated with a value type.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 263,
+          "endLine": 263,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Visitors/AsyncJsonReferenceVisitorBase.cs",
+          "navigation": {
+            "currentLine": 361193,
+            "previousLine": 408929632,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema"
+      ],
+      "favorite": false,
+      "id": 21
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'StringArray' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 28,
+          "endLine": 28,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": -315821746,
+            "previousLine": 1534851107,
+            "nextLine": -1288605658,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 17,
+          "endLine": 17,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": false,
+      "id": 22
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'IntArray' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 29,
+          "endLine": 29,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": -1288605658,
+            "previousLine": -315821746,
+            "nextLine": 1301147983,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 18,
+          "endLine": 18,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": false,
+      "id": 23
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'DoubleArray' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 30,
+          "endLine": 30,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": 1301147983,
+            "previousLine": -1288605658,
+            "nextLine": 1949988242,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 19,
+          "endLine": 19,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": false,
+      "id": 24
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'DecimalArray' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 31,
+          "endLine": 31,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": 1949988242,
+            "previousLine": 1301147983,
+            "nextLine": -1658536407,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 20,
+          "endLine": 20,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": false,
+      "id": 25
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'ShouldBeThisPropertyName' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 34,
+          "endLine": 34,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": 1319490219,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 22,
+          "endLine": 22,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": false,
+      "id": 26
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'Foo' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 27,
+          "endLine": 27,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": 1534851107,
+            "previousLine": 123,
+            "nextLine": -315821746,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 23,
+          "endLine": 23,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": true,
+      "id": 27
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'StringArray' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 246,
+          "endLine": 246,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": -315821746,
+            "previousLine": 1587985532,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 17,
+          "endLine": 17,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": false,
+      "id": 28
+    },
+    {
+      "code": "V3085",
+      "message": "The name of 'Foo' property in a nested type is ambiguous. The outer type contains static field with identical name.",
+      "falseAlarm": false,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 239,
+          "endLine": 239,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs",
+          "navigation": {
+            "currentLine": 1534851107,
+            "previousLine": -78017403,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 23,
+          "endLine": 23,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.Tests/Generation/XmlObjectTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.Tests"
+      ],
+      "favorite": true,
+      "id": 29
+    },
+    {
+      "code": "V3091",
+      "message": "Empirical analysis. It is possible that a typo is present inside the string literal: \"System.TimeSpan\". The 'TimeSpan' word is suspicious.",
+      "falseAlarm": false,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 28,
+          "endLine": 28,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpGeneratorSettings.cs",
+          "navigation": {
+            "currentLine": -1019174546,
+            "previousLine": -803136939,
+            "nextLine": 1019257203,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 29,
+          "endLine": 29,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpGeneratorSettings.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp"
+      ],
+      "favorite": true,
+      "id": 30
+    },
+    {
+      "code": "V3091",
+      "message": "Empirical analysis. It is possible that a typo is present inside the string literal: \"double\". The 'double' word is suspicious.",
+      "falseAlarm": false,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 31,
+          "endLine": 31,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpGeneratorSettings.cs",
+          "navigation": {
+            "currentLine": 54362059,
+            "previousLine": 0,
+            "nextLine": 870776407,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 33,
+          "endLine": 33,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpGeneratorSettings.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp"
+      ],
+      "favorite": true,
+      "id": 31
+    },
+    {
+      "code": "V3042",
+      "message": "Possible NullReferenceException. The '?.' and '.' operators are used for accessing members of the 'actualSchema.EnumerationNames' object",
+      "falseAlarm": false,
+      "level": 1,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 107,
+          "endLine": 107,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration/ValueGeneratorBase.cs",
+          "navigation": {
+            "currentLine": 80921195,
+            "previousLine": 647276807,
+            "nextLine": -1774881871,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 106,
+          "endLine": 106,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration/ValueGeneratorBase.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration"
+      ],
+      "favorite": true,
+      "id": 32
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: System.Math.Floor(ieee754) == ieee754. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 162,
+          "endLine": 162,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/Models/EnumTemplateModel.cs",
+          "navigation": {
+            "currentLine": -1580624166,
+            "previousLine": 125,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp"
+      ],
+      "favorite": false,
+      "id": 33
+    },
+    {
+      "code": "V3024",
+      "message": "An odd precise comparison: System.Math.Floor(dieee754) == dieee754. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 167,
+          "endLine": 167,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/Models/EnumTemplateModel.cs",
+          "navigation": {
+            "currentLine": 1830562232,
+            "previousLine": 125,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 682,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp"
+      ],
+      "favorite": false,
+      "id": 34
+    },
+    {
+      "code": "V3019",
+      "message": "Possibly an incorrect variable is compared to null after type conversion using 'as' keyword. Check variables 'schema', 'isOptional'.",
+      "falseAlarm": false,
+      "level": 1,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 77,
+          "endLine": 77,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.TypeScript/TypeScriptValueGenerator.cs",
+          "navigation": {
+            "currentLine": -1043464617,
+            "previousLine": 15415655,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 76,
+          "endLine": 76,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.TypeScript/TypeScriptValueGenerator.cs"
+        }
+      ],
+      "cwe": 697,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.TypeScript"
+      ],
+      "favorite": true,
+      "id": 35
+    },
+    {
+      "code": "V3095",
+      "message": "The 'schema' object was used before it was verified against null. Check lines: 66, 77.",
+      "falseAlarm": false,
+      "level": 1,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 66,
+          "endLine": 66,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.TypeScript/TypeScriptValueGenerator.cs",
+          "navigation": {
+            "currentLine": 1334802474,
+            "previousLine": 123,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 77,
+          "endLine": 77,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.TypeScript/TypeScriptValueGenerator.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.TypeScript"
+      ],
+      "favorite": true,
+      "id": 36
+    },
+    {
+      "code": "V3203",
+      "message": "Method parameter is not used: checkForExistingSchema.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 60,
+          "endLine": 60,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpTypeResolver.cs",
+          "navigation": {
+            "currentLine": 1040573993,
+            "previousLine": 1448745987,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp"
+      ],
+      "favorite": false,
+      "id": 37
+    },
+    {
+      "code": "V3203",
+      "message": "Method parameter is not used: typeNameHint.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 165,
+          "endLine": 165,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpTypeResolver.cs",
+          "navigation": {
+            "currentLine": 1005311243,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp"
+      ],
+      "favorite": false,
+      "id": 38
+    },
+    {
+      "code": "V3013",
+      "message": "It is odd that the body of 'When_interface_has_properties_then_properties_are_included_in_schema' function is fully equivalent to the body of 'When_class_implements_interface_then_properties_are_included_in_schema' function.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 26,
+          "endLine": 26,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp.Tests/InterfaceTests.cs",
+          "navigation": {
+            "currentLine": -1382370536,
+            "previousLine": 3377,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 46,
+          "endLine": 46,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp.Tests/InterfaceTests.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.CSharp.Tests"
+      ],
+      "favorite": false,
+      "id": 39
+    },
+    {
+      "code": "V3203",
+      "message": "Method parameter is not used: typeNameHint.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 204,
+          "endLine": 204,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.TypeScript/TypeScriptTypeResolver.cs",
+          "navigation": {
+            "currentLine": 828847381,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.CodeGeneration.TypeScript"
+      ],
+      "favorite": false,
+      "id": 40
+    },
+    {
+      "code": "V3095",
+      "message": "The 'accessorInfo' object was used before it was verified against null. Check lines: 212, 222.",
+      "falseAlarm": false,
+      "level": 1,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 212,
+          "endLine": 212,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.NewtonsoftJson/Generation/NewtonsoftJsonReflectionService.cs",
+          "navigation": {
+            "currentLine": 1440677843,
+            "previousLine": 123,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 222,
+          "endLine": 222,
+          "file": "/home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.NewtonsoftJson/Generation/NewtonsoftJsonReflectionService.cs"
+        }
+      ],
+      "cwe": 476,
+      "sastId": "",
+      "projects": [
+        "NJsonSchema.NewtonsoftJson"
+      ],
+      "favorite": true,
+      "id": 41
+    }
+  ]
+}

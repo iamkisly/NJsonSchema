@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net8.0;net472</TargetFrameworks>
+        <TargetFrameworks>net8.0;net9.0;net472</TargetFrameworks>
         <IsPackable>false</IsPackable>
         <NoWarn>$(NoWarn),1998,1591,618,IDE1006</NoWarn>
         <Nullable>disable</Nullable>
-        <EnableNETAnalyzers>false</EnableNETAnalyzers>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>

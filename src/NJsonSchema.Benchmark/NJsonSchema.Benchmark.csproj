@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFrameworks>net8.0;net9.0;</TargetFrameworks>
         <GenerateProgramFile>false</GenerateProgramFile>
         <NoWarn>$(NoWarn),xUnit1013;CS1591</NoWarn>
         <SignAssembly>false</SignAssembly>

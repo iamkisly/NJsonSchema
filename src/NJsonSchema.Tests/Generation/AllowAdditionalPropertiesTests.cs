@@ -1,4 +1,8 @@
-﻿using System.Linq;
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+using System.Linq;
 using System.Collections.Generic;
 using Xunit;
 using NJsonSchema.NewtonsoftJson.Generation;
