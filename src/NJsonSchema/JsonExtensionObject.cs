@@ -1,3 +1,7 @@
+/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
 //-----------------------------------------------------------------------
 // <copyright file="JsonExtensionObject.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
@@ -81,6 +85,8 @@ namespace NJsonSchema
                     catch
                     {
                         // object was probably not a JSON Schema
+                        // V3163 [CWE-1069] An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities. 
+                        // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/JsonExtensionObject.cs 85NJsonSchema
                     }
                 }
 

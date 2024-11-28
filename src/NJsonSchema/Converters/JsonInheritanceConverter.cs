@@ -1,4 +1,8 @@
-﻿//-----------------------------------------------------------------------
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+//-----------------------------------------------------------------------
 // <copyright file="JsonInheritanceConverter.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -81,6 +85,9 @@ namespace NJsonSchema.Converters
         /// <inheritdoc />
         public override void Write(Utf8JsonWriter writer, TBase? value, JsonSerializerOptions options)
         {
+            // V3111 Checking value of 'value' for null will always return false when generic type is instantiated with a value type. 
+            // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Converters/JsonInheritanceConverter.cs 88NJsonSchema
+
             if (value != null)
             {
                 writer.WriteStartObject();

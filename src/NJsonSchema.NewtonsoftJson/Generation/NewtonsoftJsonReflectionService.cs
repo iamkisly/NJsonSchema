@@ -1,4 +1,8 @@
-﻿//-----------------------------------------------------------------------
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+//-----------------------------------------------------------------------
 // <copyright file="DefaultReflectionService.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -200,6 +204,9 @@ namespace NJsonSchema.NewtonsoftJson.Generation
 
             try
             {
+                // V3095 [CWE-476] The 'accessorInfo' object was used before it was verified against null. 
+                // Check lines: 207, 217. /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.NewtonsoftJson/Generation/NewtonsoftJsonReflectionService.cs 207NJsonSchema.NewtonsoftJson
+
                 var propertyName = accessorInfo.GetName();
 
                 return settings.ActualContractResolver is DefaultContractResolver contractResolver

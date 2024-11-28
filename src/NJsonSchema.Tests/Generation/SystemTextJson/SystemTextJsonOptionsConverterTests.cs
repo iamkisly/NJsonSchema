@@ -1,4 +1,8 @@
-﻿#if !NETFRAMEWORK
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+#if !NETFRAMEWORK
 
 using System.Text.Json;
 using System.Text.Json.Serialization;

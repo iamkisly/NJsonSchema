@@ -1,4 +1,8 @@
-﻿using System.Text.Json;
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using NJsonSchema.Generation;
 using Xunit;

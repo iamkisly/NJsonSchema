@@ -1,3 +1,7 @@
+/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
 //-----------------------------------------------------------------------
 // <copyright file="PropertyModel.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
@@ -57,6 +61,9 @@ namespace NJsonSchema.CodeGeneration.CSharp.Models
         public bool AllowEmptyStrings =>
             _property.ActualTypeSchema.Type.IsString() &&
             (_property.MinLength == null || _property.MinLength == 0);
+
+        // V3130 Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses. 
+        // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/Models/PropertyModel.cs 67NJsonSchema.CodeGeneration.CSharp
 
         /// <summary>Gets a value indicating whether this is an array property which cannot be null.</summary>
         public bool HasSetter =>

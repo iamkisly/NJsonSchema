@@ -1,4 +1,8 @@
-﻿//-----------------------------------------------------------------------
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+//-----------------------------------------------------------------------
 // <copyright file="JsonSchema4.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -290,6 +294,10 @@ namespace NJsonSchema
             }
         }
 
+
+        // V3110 [CWE-674] Possible infinite recursion inside 'AllInheritedSchemas' property. 
+        // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/JsonSchema.cs 300NJsonSchema
+        
         /// <summary>Gets the list of all inherited/parent schemas.</summary>
         /// <remarks>Used for code generation.</remarks>
         [JsonIgnore]
@@ -615,6 +623,9 @@ namespace NJsonSchema
                     var newCollection = ToObservableCollection(value);
                     RegisterSchemaCollection(_items, newCollection);
                     _items = newCollection;
+
+                    // V3022 [CWE-571] Expression '_items != null' is always true. 
+                    // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/JsonSchema.cs 623NJsonSchema
 
                     if (_items != null)
                     {

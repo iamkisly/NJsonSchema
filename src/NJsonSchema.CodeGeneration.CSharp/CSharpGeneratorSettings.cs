@@ -1,3 +1,7 @@
+/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
 //-----------------------------------------------------------------------
 // <copyright file="CSharpGeneratorSettings.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
@@ -21,9 +25,17 @@ namespace NJsonSchema.CodeGeneration.CSharp
 
             DateType = "System.DateTimeOffset";
             DateTimeType = "System.DateTimeOffset";
+
+            // V3091 Empirical analysis. It is possible that a typo is present inside the string literal: "System.TimeSpan". The 'TimeSpan' word is suspicious. 
+            // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpGeneratorSettings.cs 28NJsonSchema.CodeGeneration.CSharp
+
             TimeType = "System.TimeSpan";
             TimeSpanType = "System.TimeSpan";
             
+
+            // V3091 Empirical analysis. It is possible that a typo is present inside the string literal: "double". The 'double' word is suspicious. 
+            // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.CodeGeneration.CSharp/CSharpGeneratorSettings.cs 31NJsonSchema.CodeGeneration.CSharp
+
             NumberType = "double";
             NumberFloatType = "float";
             NumberDoubleType = "double";

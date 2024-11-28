@@ -1,4 +1,8 @@
-﻿//-----------------------------------------------------------------------
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+//-----------------------------------------------------------------------
 // <copyright file="ObservableDictionary.cs" company="MyToolkit">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -192,6 +196,8 @@ namespace NJsonSchema.Collections
 
         public bool Remove(TKey key)
         {
+            // V3111 Checking value of 'key' for null will always return false when generic type is instantiated with a value type. 
+            // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Collections/ObservableDictionary.cs 199NJsonSchema
             if (key == null)
             {
                 throw new ArgumentNullException(nameof(key));

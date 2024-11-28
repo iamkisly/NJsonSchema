@@ -1,3 +1,7 @@
+/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
 //-----------------------------------------------------------------------
 // <copyright file="DynamicApis.cs" company="NSwag">
 //     Copyright (c) Rico Suter. All rights reserved.
@@ -100,6 +104,9 @@ namespace NJsonSchema.Infrastructure
                             var expectedFile = Path.Combine(expectedDir, fileName);
                             if (Directory.Exists(expectedDir))
                             {
+                                // V3086 Variables expectedFile, fullPath are initialized through the call to the same function. It's probably an error or un-optimized code.
+                                // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Infrastructure/DynamicApis.cs 107NJsonSchema
+
                                 fullPath = Path.Combine(expectedDir, fileName);
                                 break;
                             }
@@ -118,6 +125,8 @@ namespace NJsonSchema.Infrastructure
                             var expectedFile = Path.Combine(subDir, fileName);
                             if (File.Exists(expectedFile) && File.ReadAllText(expectedFile).Contains(jsonPath.Split('/').Last()))
                             {
+                                // V3086 Variables expectedFile, fullPath are initialized through the call to the same function. It's probably an error or un-optimized code.
+                                // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Infrastructure/DynamicApis.cs 125NJsonSchema
                                 fullPath = Path.Combine(subDir, fileName);
                                 break;
                             }
@@ -147,6 +156,8 @@ namespace NJsonSchema.Infrastructure
                 }
                 catch
                 {
+                    // V3163 [CWE-1069] An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities. 
+                    // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Infrastructure/DynamicApis.cs 152NJsonSchema
                 }
             }
             return null;

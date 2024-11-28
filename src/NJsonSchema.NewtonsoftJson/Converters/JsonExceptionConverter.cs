@@ -1,4 +1,8 @@
-﻿//-----------------------------------------------------------------------
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+//-----------------------------------------------------------------------
 // <copyright file="JsonExceptionConverter.cs" company="NSwag">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -124,6 +128,10 @@ namespace NJsonSchema.NewtonsoftJson.Converters
                 if (!objectType.Name.Equals(discriminator, StringComparison.Ordinal))
                 {
                     var exceptionType = Type.GetType("System." + discriminator, false);
+
+                    // V3022 [CWE-571] Expression 'exceptionType != null' is always true. 
+                    // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema.NewtonsoftJson/Converters/JsonExceptionConverter.cs 131NJsonSchema.NewtonsoftJson
+
                     if (exceptionType != null)
                     {
                         objectType = exceptionType;

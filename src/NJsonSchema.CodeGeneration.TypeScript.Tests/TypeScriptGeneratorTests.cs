@@ -1,4 +1,8 @@
-﻿using NJsonSchema.CodeGeneration.TypeScript.Tests.Models;
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+using NJsonSchema.CodeGeneration.TypeScript.Tests.Models;
 using System.Text.RegularExpressions;
 using NJsonSchema.NewtonsoftJson.Generation;
 

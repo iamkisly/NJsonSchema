@@ -1,4 +1,8 @@
-﻿//-----------------------------------------------------------------------
+﻿/*
+* This is a personal academic project. Dear PVS-Studio, please check it.
+* PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+*/
+//-----------------------------------------------------------------------
 // <copyright file="JsonReferenceVisitorBase.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -243,6 +247,10 @@ namespace NJsonSchema.Visitors
         private static void ReplaceOrDelete<T>(ObservableCollection<T> collection, int index, T obj)
         {
             collection.RemoveAt(index);
+
+            // V3111 Checking value of 'obj' for null will always return false when generic type is instantiated with a value type.
+            // /home/me/workspace/dotnet/NJsonSchema/src/NJsonSchema/Visitors/JsonReferenceVisitorBase.cs 250NJsonSchema
+
             if (obj != null)
             {
                 collection.Insert(index, obj);
