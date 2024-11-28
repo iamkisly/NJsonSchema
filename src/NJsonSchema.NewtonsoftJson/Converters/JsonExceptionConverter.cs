@@ -101,13 +101,13 @@ namespace NJsonSchema.NewtonsoftJson.Converters
 
             var newSerializer = new JsonSerializer
             {
-                ContractResolver = (IContractResolver)Activator.CreateInstance(serializer.ContractResolver.GetType())
+                ContractResolver = Activator.CreateInstance(serializer.ContractResolver.GetType()) as IContractResolver
             };
 
             var field = JsonExceptionConverter.GetField(typeof(DefaultContractResolver), "_sharedCache");
             field?.SetValue(newSerializer.ContractResolver, false);
 
-            dynamic resolver = newSerializer.ContractResolver;
+            var resolver = newSerializer.ContractResolver;
             if (newSerializer.ContractResolver.GetType().GetRuntimeProperty("IgnoreSerializableAttribute") != null)
             {
                 resolver.IgnoreSerializableAttribute = true;
@@ -156,7 +156,7 @@ namespace NJsonSchema.NewtonsoftJson.Converters
                     }
                     else
                     {
-                        var fieldNameSuffix = property.Value.Substring(0, 1).ToLowerInvariant() + property.Value.Substring(1);
+                        var fieldNameSuffix = string.Concat(property.Value.Substring(0, 1).ToLowerInvariant(), property.Value.AsSpan(1));
 
                         field = JsonExceptionConverter.GetField(objectType, "m_" + fieldNameSuffix);
                         if (field != null)

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net8.0;net472</TargetFrameworks>
+        <TargetFrameworks>net8.0;</TargetFrameworks>
         <IsPackable>false</IsPackable>
         <NoWarn>$(NoWarn),1998,1591,618,IDE1006</NoWarn>
         <Nullable>disable</Nullable>
@@ -16,10 +16,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Reference Condition="'$(TargetFramework)' == 'net472'" Include="System.ComponentModel.DataAnnotations" />
-    </ItemGroup>
-
-    <ItemGroup>
         <ProjectReference Include="..\NJsonSchema.CodeGeneration.CSharp\NJsonSchema.CodeGeneration.CSharp.csproj" />
         <ProjectReference Include="..\NJsonSchema.CodeGeneration.TypeScript\NJsonSchema.CodeGeneration.TypeScript.csproj" />
         <ProjectReference Include="..\NJsonSchema.NewtonsoftJson\NJsonSchema.NewtonsoftJson.csproj" />
@@ -27,6 +23,17 @@
 
     <ItemGroup>
         <None Update="Templates\*.liquid" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageVersion Update="PolySharp" Version="1.15.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="PolySharp">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 
 </Project>

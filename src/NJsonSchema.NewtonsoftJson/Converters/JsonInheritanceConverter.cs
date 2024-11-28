@@ -265,14 +265,17 @@ namespace NJsonSchema.NewtonsoftJson.Converters
                         var method = type.GetRuntimeMethod((string)attribute.MethodName, Type.EmptyTypes);
                         if (method != null)
                         {
-                            var types = (System.Collections.Generic.IEnumerable<Type>)method.Invoke(null, []);
-                            foreach (var knownType in types)
+                            if (method.Invoke(null, []) is IEnumerable<Type> types)
                             {
-                                if (knownType.Name == discriminator)
+                                foreach (var knownType in types)
                                 {
-                                    return knownType;
+                                    if (knownType.Name == discriminator)
+                                    {
+                                        return knownType;
+                                    }
                                 }
                             }
+
                             return null;
                         }
                     }

@@ -44,17 +44,17 @@ namespace NJsonSchema.CodeGeneration
             if (name.StartsWith('-'))
 #pragma warning restore CS8604 // Possible null reference argument.
             {
-                name = "Minus" + name.Substring(1);
+                name = string.Concat("Minus", name.AsSpan(1));
             }
 
             if (name.StartsWith('+'))
             {
-                name = "Plus" + name.Substring(1);
+                name = string.Concat("Plus", name.AsSpan(1));
             }
 
             if (name.StartsWith("_-", StringComparison.Ordinal))
             {
-                name = "__" + name.Substring(2);
+                name = string.Concat("__", name.AsSpan(2));
             }
 
             return _invalidNameCharactersPattern.Replace(ConversionUtilities.ConvertToUpperCamelCase(name

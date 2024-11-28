@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
+    <TargetFrameworks>net8.0;</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -23,6 +23,17 @@
   <ItemGroup>
     <Compile Include="..\NJsonSchema\Infrastructure\EnumExtensions.cs" Link="EnumExtensions.cs" />
     <Compile Include="..\NJsonSchema\Infrastructure\Polyfills.cs" Link="Polyfills.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageVersion Update="PolySharp" Version="1.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="PolySharp">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

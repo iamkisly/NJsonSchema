@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net8.0;net472</TargetFrameworks>
+        <TargetFrameworks>net8.0;</TargetFrameworks>
         <IsPackable>false</IsPackable>
         <Nullable>disable</Nullable>
         <AnalysisLevel>latest-Minimal</AnalysisLevel>
@@ -27,6 +27,17 @@
 
     <ItemGroup>
         <ProjectReference Include="..\NJsonSchema.NewtonsoftJson\NJsonSchema.NewtonsoftJson.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageVersion Update="PolySharp" Version="1.15.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="PolySharp">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
     </ItemGroup>
 
 </Project>
